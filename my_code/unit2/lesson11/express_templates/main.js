@@ -6,8 +6,6 @@ const layouts = require("express-ejs-layouts");
 
 app.set("port", process.env.PORT || 3000);
 app.set("view engine", "ejs");
-app.use(express.static('public'));
-
 
 app.use(layouts);
 app.use(
